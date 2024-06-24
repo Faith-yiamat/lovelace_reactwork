@@ -1,20 +1,20 @@
 import './index.css'
 import { useState } from 'react';
 import { login } from './utils';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 function Login (){
     const [userName, setUserName] = useState("");
     const [password, setPassword] = useState("");
     console.log(userName);
-    const history = useNavigate();
+    // const history = useNavigate();
 
     const handleLogin = async e =>{
         e.preventDefault();
         const result = await login({username:userName,password});
         console.log(result);
 
-        history.push('/users')
+        // history.push('/users')
 
     }
     return(
