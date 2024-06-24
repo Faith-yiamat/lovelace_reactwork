@@ -1,19 +1,30 @@
 input{
-    width: 90%;
+    width: 60%;
     margin: 2% 0;
     padding: 16px 12px;
+    margin-left: 16%;
 }
 form{
-    width: 60%;
+    width: 40%;
     border: solid 1px;
     padding: 16px 5px;
+    margin-left: 26%;
 }
 button{
     padding: 12px 10px;
-    width: 95%;
+    width: 55%;
     border: none;
     background-color: rgb(105, 161, 105);
     border-radius: 5px;
     cursor: pointer;
     color: #ffff;
+    margin-left: 20%;
+
+
+
+
 }
+h1{
+    margin-left: 39px;
+}
+
